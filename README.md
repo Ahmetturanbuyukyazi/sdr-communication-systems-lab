@@ -25,14 +25,19 @@ The main goal is to understand how different wireless communication systems can 
 
 The report is organized as separate documentation pages:
 
-1. [Introduction and Objective](docs/01-giris-ve-calismanin-amaci.md)
-2. [Hardware and Software Setup](docs/02-kullanilan-donanim-ve-yazilim.md)
-3. [FM Broadcast Analysis with SDRSharp](docs/03-sdrsharp-ile-fm-yayinlarinin-incelenmesi.md)
-4. [FM Analysis with GNU Radio](docs/04-gnu-radio-ile-fm-yayininin-analizi.md)
-5. [FM Demodulation and RDS Decoding](docs/05-fm-demodulasyonu-ve-rds-cozumleme.md)
-6. [FM Broadcast Baseband Structure](docs/06-fm-yayininin-ic-yapisi.md)
-7. [ADS-B Aircraft Tracking](docs/07-ads-b-ile-ucak-takibi.md)
-8. [NOAA Weather Satellite Reception](docs/08-noaa-hava-durumu-uydularinin-alinmasi.md)
+## Documentation
+
+The project documentation is organized as separate pages:
+
+1. [Introduction and Objective](docs/01-introduction-and-objective.md)
+2. [Hardware and Software Setup](docs/02-hardware-and-software-setup.md)
+3. [FM Broadcast Analysis with SDRSharp](docs/03-fm-broadcast-analysis-with-sdrsharp.md)
+4. [FM Analysis with GNU Radio](docs/04-fm-analysis-with-gnu-radio.md)
+5. [FM Demodulation and RDS Decoding](docs/05-fm-demodulation-and-rds-decoding.md)
+6. [FM Broadcast Baseband Structure](docs/06-fm-broadcast-baseband-structure.md)
+7. [ADS-B Aircraft Tracking](docs/07-ads-b-aircraft-tracking.md)
+8. [NOAA Weather Satellite Reception](docs/08-noaa-weather-satellite-reception.md)
+
 
 ## Main results
 
