@@ -27,25 +27,31 @@ The sample rate was set to:
 250 ksps
 ```
 
+
 ![SatDump FFT/waterfall monitoring](assets/image40.png)
 
 The FFT screen was used to monitor the received signal in the frequency domain. Spectrum and waterfall displays were used to identify the satellite signal during the pass.
+
 
 ![NOAA APT processing pipeline](assets/image41.png)
 
 The NOAA APT processing pipeline was selected in SatDump. NOAA-19 was selected as the target satellite and noise reduction options were enabled.
 
+
 ![CF32 recording configuration](assets/image42.png)
 
 For later processing, the raw IQ recording format was selected as **CF32**.
+
 
 ![Satellite tracking screen](assets/image43.png)
 
 During the satellite pass, azimuth and elevation information were followed using the tracking screen.
 
+
 ![SatDump VFO/debug screen](assets/image44.png)
 
 The VFO and debug screens were also inspected for signal analysis and troubleshooting.
+
 
 ## 8.3 Image processing status
 
