@@ -36,21 +36,19 @@ Tar1090 was also started to display aircraft on a map interface. However, aircra
 
 ![Tar1090 map interface](assets/image37.png)
 
-The reason is that complete position information could not be decoded consistently from the received ADS-B packets. Although some packets were received, the data quality was not sufficient for stable map plotting.
+The ADS-B reception was **partially successful**. ADS-B packets were received and several aircraft-related fields were decoded. In particular, the following information was observed:
 
-The main limitation was most likely the antenna system. The antenna used in this experiment was not optimized for the **1090 MHz ADS-B band**. For reliable ADS-B position decoding, a suitable 1090 MHz antenna and better RF reception conditions are required.
+* ADS-B packets were received.
+* ICAO address and message type information were decoded.
+* Altitude and identifier-related fields were observed.
+* The received data was processed by Dump1090.
+* The Tar1090 web interface was started successfully.
 
-Therefore, the ADS-B part of the project should be evaluated as **partially successful**:
+However, complete aircraft position information could not be decoded consistently from the received ADS-B packets. Therefore, the aircraft could not be displayed on the Tar1090 map.
 
-- ADS-B packets were received.
-- Some aircraft-related fields were decoded.
-- Altitude and identifier-related information was observed.
-- Complete position decoding was not reliable enough.
-- Aircraft could not be displayed on the Tar1090 map.
+> [!NOTE]
+ The main limitation was most likely the antenna system. The antenna used in this experiment was not optimized for the **1090 MHz ADS-B band**. Although some packets were received and partially decoded, the received signal quality was not sufficient for reliable position decoding and stable map plotting.
 
 This result is still useful because it shows the practical RF limitations of SDR reception and demonstrates why antenna selection is critical in ADS-B applications.
 
 
-
->[!NOTE]
-ADS-B packets were successfully received and partially decoded. Information such as ICAO address, message type, and altitude was obtained. However, the aircraft could not be displayed on the map because the received packets did not contain sufficient position data for reliable position decoding. The main reason for this limitation is considered to be the antenna system, since the antenna used in this experiment was not optimized for the 1090 MHz ADS-B band and the received signal quality was not sufficient for consistent position decoding.
