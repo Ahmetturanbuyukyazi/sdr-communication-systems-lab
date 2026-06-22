@@ -52,5 +52,5 @@ This result is still useful because it shows the practical RF limitations of SDR
 
 
 
-[!NOTE]
+>[!NOTE]
 ADS-B packets were successfully received and partially decoded. Information such as ICAO address, message type, and altitude was obtained. However, the aircraft could not be displayed on the map because the received packets did not contain sufficient position data for reliable position decoding. The main reason for this limitation is considered to be the antenna system, since the antenna used in this experiment was not optimized for the 1090 MHz ADS-B band and the received signal quality was not sufficient for consistent position decoding.
